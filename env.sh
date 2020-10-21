@@ -15,6 +15,10 @@ echo $HOMEBREW_VERSION
 GIT_VERSION=$(git --version)
 echo $GIT_VERSION
 
+# Docker
+DOCKER_VERSION=$(docker --version)
+echo $DOCKER_VERSION
+
 # Node.js
 NODE_VERSION=$(node --version)
 echo "node ${NODE_VERSION}"
