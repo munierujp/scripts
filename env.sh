@@ -30,3 +30,7 @@ echo "npm v${NPM_VERSION}"
 # yarn
 YARN_VERSION=$(yarn --version)
 echo "yarn v${YARN_VERSION}"
+
+# Go
+GO_VERSION=$(go version)
+echo $GO_VERSION
