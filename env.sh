@@ -31,10 +31,6 @@ echo "npm v${NPM_VERSION}"
 YARN_VERSION=$(yarn --version)
 echo "yarn v${YARN_VERSION}"
 
-# Python
-PYTHON_VERSION=$(python --version)
-echo $PYTHON_VERSION
-
 # Go
 GO_VERSION=$(go version)
 echo $GO_VERSION
