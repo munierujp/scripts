@@ -18,8 +18,8 @@ echo "# Softwares"
 
 # macOS
 MAC_SOFTWARE_INFO=$(system_profiler -json SPSoftwareDataType | jq '.SPSoftwareDataType[0]')
-MAC_OS=$(echo $MAC_SOFTWARE_INFO | jq --raw-output '.os_version')
-echo $MAC_OS
+MAC_OS_VERSION=$(echo $MAC_SOFTWARE_INFO | jq --raw-output '.os_version')
+echo $MAC_OS_VERSION
 
 # zsh
 ZSH_VERSION=$(zsh --version)
